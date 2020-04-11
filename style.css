@@ -372,6 +372,40 @@ nav ul li h2 {
 
 /* FEATURED BOOK STYLE END */
 
+/* CURATED ARTICLES STYLE START */
+
+.person-of-week {
+  display: flex;
+  margin-bottom: 10px;
+}
+  
+.profile-pic {
+  background-image: url(./images/pow-img.png);
+  background-origin: padding-box;
+  background-clip: border-box;
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 200px;
+  transition: transform 0.35s ease-in-out;
+  transform: rotate(-10deg);
+  border: 10px solid #070505;
+  border-radius: 15px;
+  margin: 10px 50px 20px 10px;
+}
+  
+.profile-pic:hover {
+  transform: rotate(0deg);
+}
+  
+.community-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 376.69px);
+  grid-gap: 10px;
+}
+
+/* CURATED ARTICLES STYLE END */
+
 /*TABLES-OF-CONTENTS START*/
 .tables-content {
     display: grid;
