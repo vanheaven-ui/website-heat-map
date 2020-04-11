@@ -261,6 +261,59 @@ nav ul li h2 {
 
 
 /* LATEST ARTICLES RULE END */
+/*TABLES-OF-CONTENTS START*/
+.tables-content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: gray;
+    height: 400px;
+}
+
+.tables-content img {
+    height: 400px;
+    width: 280px;
+    transform: rotate(-10deg);
+    margin: -70px 0px 0px 100px;
+}
+.featured-section button{
+    border-radius: 10px;
+}
+.featured-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+.featured-section p{
+    color: white;
+}
+.featured-section a{
+    color: white;
+    font-size: 40px;
+}
+.featured-section h2{
+    color: white;
+    font-size: 20px;
+}
+.table-button{
+    margin-bottom: 20px;
+}
+.table-button button h2{
+    color: blue;
+    padding: 5px 23px 0px 0px;
+    font-size: 18px;
+    line-height: 3px;
+    cursor: pointer;
+}
+.tables-content button i{
+    position: relative;
+    left: 80px;
+    top: -20px;
+    color: blue;
+    font-size: 25px;
+    line-height: 3px;
+}
+/*TABLE OF CONTENTS END*/
 
 /* FOOTER STYLE RULE START */
 
@@ -326,55 +379,4 @@ footer ul li:hover {
     margin: 50px 0px 10px 30px;
 }
 
-.tables-content {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    background-color: gray;
-    height: 400px;
-}
-
-.tables-content img {
-    height: 400px;
-    width: 280px;
-    transform: rotate(-10deg);
-    margin: -70px 0px 0px 100px;
-}
-.featured-section button{
-    border-radius: 10px;
-}
-.featured-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 80px;
-}
-.featured-section p{
-    color: white;
-}
-.featured-section a{
-    color: white;
-    font-size: 40px;
-}
-.featured-section h2{
-    color: white;
-    font-size: 20px;
-}
-.table-button{
-    margin-bottom: 20px;
-}
-.table-button button h2{
-    color: blue;
-    padding: 5px 23px 0px 0px;
-    font-size: 18px;
-    line-height: 3px;
-    cursor: pointer;
-}
-.tables-content button i{
-    position: relative;
-    left: 80px;
-    top: -20px;
-    color: blue;
-    font-size: 25px;
-    line-height: 3px;
-}
 /* FOOTER STYLE RULE END */
