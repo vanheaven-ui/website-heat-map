@@ -44,3 +44,11 @@ nav ul li p,
 nav ul li h2 {
     color: white;
 }
+.articles,
+.books,
+.events,
+.jobs,
+.membership,
+.topics {
+    margin-top: 30px;
+}
