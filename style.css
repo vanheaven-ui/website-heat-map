@@ -1,11 +1,13 @@
-body{
+body {
     font-family: 'Spinnaker', sans-serif;
 }
+
 html,
 body {
     padding: 0;
     margin: 0;
 }
+
 nav ul {
     display: flex;
     flex-direction: row;
@@ -13,6 +15,7 @@ nav ul {
     list-style-type: none;
     background-color: #666666;
 }
+
 nav ul li {
     display: flex;
     flex-direction: column;
@@ -20,6 +23,7 @@ nav ul li {
     line-height: 0.5em;
     margin-bottom: 20px;
 }
+
 .articles img,
 .books img,
 .events img,
@@ -28,22 +32,26 @@ nav ul li {
     height: 40px;
     width: 40px;
 }
+
 .logo img {
     margin-top: 30px;
     margin-left: -30px;
 }
+
 .topics button {
-    padding: -10px 38px 0px 38px;
     background-color: #666666;
     border: white solid 3px;
     border-radius: 4px;
     margin-top: 20px;
     margin-right: 20px;
+    padding: 20px 55px;
 }
+
 nav ul li p,
 nav ul li h2 {
     color: white;
 }
+
 .articles,
 .books,
 .events,
