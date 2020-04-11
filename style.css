@@ -258,7 +258,72 @@ nav ul li h2 {
 
 /* LATEST ARTICLES RULE START */
 
+.container {
+  width: 94vw;
+  margin: 0 auto;
+}
+  
+.article-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 567px 783px 503px 651.34px;
+  grid-gap: 10px;
+}
+  
+.article {
+  background-color: rgb(180, 179, 179);
+  padding: 30px 40px 0;
+}
 
+.article-heading {
+    color: #111;
+}
+  
+.advert {
+  background-color: rgb(104, 103, 103);
+  color: #fff;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+.advert .sponsor::before {
+  content: "Our friends and supporters ↓";
+  display: block;
+  font-size: 12px;
+  font-style: italic;
+  color: #666;
+  padding: 0 0 1.5em 0;
+  align-self: baseline;
+}
+  
+.sponsor {
+  width: 394px;
+  height: 274.53px;
+  padding: 17px 17px 34px;
+  color: #fff;
+  background: grey;
+  font-size: 24px;
+  font-weight: 700;
+  box-sizing: border-box;
+  text-align: center;
+}
+  
+.side-bar {
+  background-color: rgb(7, 5, 5);
+  color: #fff;
+  padding: 0 20px 50px;
+  margin-bottom: 71px;
+  border-radius: 20px;
+  font-size: 44px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+  
+.large {
+  grid-column: 1/-1;
+  justify-content: center;
+}
 
 /* LATEST ARTICLES RULE END */
 
