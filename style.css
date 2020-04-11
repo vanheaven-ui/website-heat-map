@@ -40,3 +40,7 @@ nav ul li {
     margin-top: 20px;
     margin-right: 20px;
 }
+nav ul li p,
+nav ul li h2 {
+    color: white;
+}
