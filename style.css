@@ -326,6 +326,31 @@ nav ul li h2 {
 }
 
 /* LATEST ARTICLES RULE END */
+
+/*LOAD MORE STYLE RULE */
+
+.load-more {
+  padding: 20px 0 101px;
+  text-align: center;
+}
+
+.load-more-link {
+  text-decoration: none;
+  border-bottom: 5px solid #000;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  padding: 19px 0 8px;
+  color: #333;
+  letter-spacing: 1px;
+}
+  
+.load-more-link::after {
+  content: " → ";
+}
+
+/* LOAD MORE STYLE RULE END */
+
 /*TABLES-OF-CONTENTS START*/
 .tables-content {
     display: grid;
