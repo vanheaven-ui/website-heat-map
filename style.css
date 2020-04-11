@@ -38,20 +38,6 @@ nav ul li {
     margin-left: -30px;
 }
 
-.topics button {
-    background-color: #666666;
-    border: white solid 3px;
-    border-radius: 4px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding: 20px 55px;
-}
-
-nav ul li p,
-nav ul li h2 {
-    color: white;
-}
-
 .articles,
 .books,
 .events,
@@ -59,4 +45,32 @@ nav ul li h2 {
 .membership,
 .topics {
     margin-top: 30px;
+}
+
+nav ul li p,
+nav ul li h2 {
+    color: white;
+}
+.topics button {
+    background-color: #666666;
+    border: white solid 3px;
+    border-radius: 4px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.topics button h3{
+    padding: 0px 30px;
+    line-height: 3px;
+}
+.topics button i {
+    position: absolute;
+    top: 85px;
+    font-size: 15px;
+    color: white;
+    margin-left: -50px;
+   
+ }
+ .topics button h3 {
+    font-size: 20px;
+    color: white;
 }
