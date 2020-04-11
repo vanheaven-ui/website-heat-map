@@ -309,7 +309,7 @@ nav ul li h2 {
 }
   
 .side-bar {
-  background-color: rgb(7, 5, 5);
+  background-color: #070505;
   color: #fff;
   padding: 0 20px 50px;
   margin-bottom: 71px;
@@ -336,7 +336,7 @@ nav ul li h2 {
 
 .load-more-link {
   text-decoration: none;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #070505;
   text-transform: uppercase;
   font-size: 0.75em;
   letter-spacing: 1px;
@@ -347,6 +347,7 @@ nav ul li h2 {
   
 .load-more-link::after {
   content: " → ";
+  font-size: 1.5em;
 }
 
 /* LOAD MORE STYLE RULE END */
