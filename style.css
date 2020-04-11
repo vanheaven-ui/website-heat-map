@@ -6,3 +6,10 @@ body {
     padding: 0;
     margin: 0;
 }
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: #666666;
+}
