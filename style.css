@@ -1,3 +1,5 @@
+/* GENERAL STYLE RULE START */
+
 body {
     font-family: 'Spinnaker', sans-serif;
 }
@@ -7,6 +9,14 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.hidden-content {
+  display: none;
+}
+
+/* GENERAL STYLE RULE START */
+
+/* NAV STYLE RULE START */
 
 nav ul {
     display: flex;
@@ -78,6 +88,10 @@ nav ul li h2 {
     font-size: 20px;
     color: white;
 }
+
+/* NAV STYLE RULE END */
+
+/* MAIN STYLE RULE START */
 
 .first-article {
     display: grid;
@@ -239,6 +253,16 @@ nav ul li h2 {
     border-radius: 10px;
 }
 
+/* MAIN STYLE RULE END */
+
+/* LATEST ARTICLES RULE START */
+
+
+
+/* LATEST ARTICLES RULE END */
+
+/* FOOTER STYLE RULE START */
+
 footer {
     display: flex;
     flex-direction: column;
@@ -289,3 +313,5 @@ footer ul li:hover{
 .cat{
     margin: 50px 0px 10px 30px;
 }
+
+/* FOOTER STYLE RULE END */
