@@ -252,7 +252,9 @@ footer h2 {
     font-size: 15px;
     margin: 50px 0px 0px 0px;
 }
-
+footer ul li:hover{
+    color: black;
+}
 .accesibility ul li,
 .graphics ul li,
 .plugins ul li,
