@@ -380,11 +380,11 @@ nav ul li h2 {
 }
   
 .profile-pic {
-  background-image: url(./images/pow-img.png);
+  background-image: url(./img/pow-img.png);
   background-origin: padding-box;
   background-clip: border-box;
   background-repeat: no-repeat;
-  width: 800px;
+  width: 100%;
   height: 200px;
   transition: transform 0.35s ease-in-out;
   transform: rotate(-10deg);
