@@ -352,6 +352,26 @@ nav ul li h2 {
 
 /* LOAD MORE STYLE RULE END */
 
+/* FEATURED BOOK STYLE RULE START */
+
+.featured-book {
+  background-color: rgb(148, 143, 143);
+  height: 1088px;
+  padding: 70.5018px 0;
+}
+
+.featured-book-wrapper {
+  text-align: center;
+}
+
+.book-details {
+  margin: 1em auto 2em;
+  max-width: 55vw;
+  font-size: 1.2em;
+}
+
+/* FEATURED BOOK STYLE END */
+
 /*TABLES-OF-CONTENTS START*/
 .tables-content {
     display: grid;
