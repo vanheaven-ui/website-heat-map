@@ -132,10 +132,12 @@ nav ul li h2 {
 
 .first-box {
     background-color: #5b5b5b;
+    margin-top: -16px;
 }
 
 .second-box {
     background-color: #8b8787;
+    margin-top: -16px;
 }
 
 .third-box {
