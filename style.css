@@ -238,3 +238,24 @@ nav ul li h2 {
     transform: rotate(10deg);
     border-radius: 10px;
 }
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #666666;
+    color: white;
+}
+
+footer h2 {
+    font-size: 15px;
+}
+
+.accesibility ul li,
+.graphics ul li,
+.plugins ul li,
+.wallpapers ul li {
+    float: left;
+    padding: 0px 20px 0px 0px;
+    margin-right: 5px;
+}
