@@ -28,3 +28,7 @@ nav ul li {
     height: 40px;
     width: 40px;
 }
+.logo img {
+    margin-top: 30px;
+    margin-left: -30px;
+}
