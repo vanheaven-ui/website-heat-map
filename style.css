@@ -245,10 +245,12 @@ footer {
     align-items: center;
     background-color: #666666;
     color: white;
+    height: 100vh;
 }
 
 footer h2 {
     font-size: 15px;
+    margin: 50px 0px 0px 0px;
 }
 
 .accesibility ul li,
@@ -256,6 +258,32 @@ footer h2 {
 .plugins ul li,
 .wallpapers ul li {
     float: left;
-    padding: 0px 20px 0px 0px;
+    padding: 40px 20px 0px 20px;
     margin-right: 5px;
+}
+.wallpapers{
+    margin-left: 350px;
+}
+.last-footer{
+    display: grid;
+   grid-template-columns:25% 50% 25%;
+}
+.with-commitment p i{
+    font-size: 13px;
+}
+.with-commitment p{
+    font-size: 14px;
+}
+.with-commitment p, .footer-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-link a, .with-commitment p a{
+    color: white;
+    font-size: 13px;
+    margin: 0px 2px 0px 2px;
+}
+.cat{
+    margin: 70px 0px 10px 30px;
 }
