@@ -252,9 +252,11 @@ footer h2 {
     font-size: 15px;
     margin: 50px 0px 0px 0px;
 }
-footer ul li:hover{
+
+footer ul li:hover {
     color: black;
 }
+
 .accesibility ul li,
 .graphics ul li,
 .plugins ul li,
@@ -263,29 +265,90 @@ footer ul li:hover{
     padding: 40px 20px 0px 20px;
     margin-right: 5px;
 }
-.wallpapers{
+
+.wallpapers {
     margin-left: 350px;
 }
-.last-footer{
+
+.last-footer {
     display: grid;
-   grid-template-columns:25% 50% 25%;
+    grid-template-columns: 25% 50% 25%;
 }
-.with-commitment p i{
+
+.with-commitment p i {
     font-size: 13px;
 }
-.with-commitment p{
+
+.with-commitment p {
     font-size: 14px;
 }
-.with-commitment p, .footer-link{
+
+.with-commitment p,
+.footer-link {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.footer-link a, .with-commitment p a{
+
+.footer-link a,
+.with-commitment p a {
     color: white;
     font-size: 13px;
     margin: 0px 2px 0px 2px;
 }
-.cat{
+
+.cat {
     margin: 50px 0px 10px 30px;
+}
+
+.tables-content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: gray;
+    height: 400px;
+}
+
+.tables-content img {
+    height: 400px;
+    width: 280px;
+    transform: rotate(-10deg);
+    margin: -70px 0px 0px 100px;
+}
+.featured-section button{
+    border-radius: 10px;
+}
+.featured-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 80px;
+}
+.featured-section p{
+    color: white;
+}
+.featured-section a{
+    color: white;
+    font-size: 40px;
+}
+.featured-section h2{
+    color: white;
+    font-size: 20px;
+}
+.table-button{
+    margin-bottom: 20px;
+}
+.table-button button h2{
+    color: blue;
+    padding: 5px 23px 0px 0px;
+    font-size: 18px;
+    line-height: 3px;
+    cursor: pointer;
+}
+.tables-content button i{
+    position: relative;
+    left: 80px;
+    top: -20px;
+    color: blue;
+    font-size: 25px;
+    line-height: 3px;
 }
