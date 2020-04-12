@@ -5,7 +5,7 @@ body {
 }
 
 html,
-body {
+body, main {
     padding: 0;
     margin: 0;
 }
@@ -361,6 +361,9 @@ nav ul li h2 {
 .curated-hover a{
     color: blue;
 }
+.curated-hover ul li{
+ color: red;
+}
 .curated-hover:hover {
     background-color: white;
     width: 500px;
@@ -374,6 +377,8 @@ nav ul li h2 {
 }
 
 /*END OF CURATED POST*/
+/*DESIGN PATTERNS START*/
+/*DESIGN PATTERNS END*/
 
 /* FOOTER STYLE RULE START */
 
@@ -384,6 +389,7 @@ footer {
     background-color: #666666;
     color: white;
     height: 100vh;
+    margin-bottom: 0;
 }
 
 footer h2 {
