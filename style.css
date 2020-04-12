@@ -334,7 +334,7 @@ nav ul li h2 {
 .curated {
     position: relative;
     left: -650px;
-    bottom: -650px;
+    bottom: -700px;
     transform: rotate(90deg);
     width: 100%;
 }
@@ -358,7 +358,9 @@ nav ul li h2 {
 .curated-grid ul li {
     padding: 0px 0px 30px 0px;
 }
-
+.curated-hover a{
+    color: blue;
+}
 .curated-hover:hover {
     background-color: white;
     width: 500px;
@@ -368,7 +370,7 @@ nav ul li h2 {
     -moz-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
     box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
     transition-timing-function: ease-in;
-    transition-delay: 0.21s;
+    transition-delay: 0.05s;
 }
 
 /*END OF CURATED POST*/
