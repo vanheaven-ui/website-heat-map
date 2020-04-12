@@ -8,6 +8,7 @@ html,
 body, main {
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
 .hidden-content {
@@ -372,12 +373,102 @@ nav ul li h2 {
     -webkit-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
     -moz-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
     box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
-    transition-timing-function: ease-in;
-    transition-delay: 0.05s;
+    transition-timing-function: ease-out;
+    transition-delay: 0.1s;
 }
 
 /*END OF CURATED POST*/
+
 /*DESIGN PATTERNS START*/
+.designn{
+    background-color: rgb(187, 185, 185);
+}
+.design-patterns{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0px 70px 0px 40px;
+    height: 140vh;
+}
+.design-hover li{
+color: red;
+}
+.design-hover a{
+    color: blue;
+}
+.design-hover h2{
+    font-size: 15px;
+}
+.design-hover p{
+    font-size: 25px;
+    font-weight: bold;
+}
+.design-hover ul li{
+    padding: 0px 0px 30px 0px;
+}
+.design-hover:hover{
+    background-color: white;
+    padding-left: 30px;
+    -webkit-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    -moz-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    transition-timing-function: ease-out;
+    transition-delay: 0.25s;
+}
+.smash-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(95, 95, 95);
+    border-radius: 20px;
+}
+.smash-news h1 a{
+    color: white;
+    font-size: 35px;
+}
+.smash-news p{
+    color: white;
+    line-height: 5px;
+}
+.smash-news img{
+    margin-top: 40px;
+}
+.smash-news button{
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.smash-news button h2{
+    color :blue;
+    float: right;
+    border-left: 1px solid gray;
+    padding: 0px 10px;
+    line-height: 100%;
+    
+}
+.smash-news button h2 a{
+    color: blue;
+    text-decoration: none;
+}
+.smash-news button input{
+    border: none;
+    font-size: 18px;
+    margin-top: 18px;
+    border-color: white;
+    padding: 0;
+}
+.linkk{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.linkk a{
+   color: white;
+   text-decoration: none;
+   border-bottom: 3px solid;
+}
 /*DESIGN PATTERNS END*/
 
 /* FOOTER STYLE RULE START */
