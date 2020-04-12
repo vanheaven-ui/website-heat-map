@@ -11,7 +11,7 @@ body {
 }
 
 .hidden-content {
-  display: none;
+    display: none;
 }
 
 /* GENERAL STYLE RULE START */
@@ -258,154 +258,9 @@ nav ul li h2 {
 
 /* LATEST ARTICLES RULE START */
 
-.container {
-  width: 94vw;
-  margin: 0 auto;
-}
-  
-.article-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 567px 783px 503px 651.34px;
-  grid-gap: 10px;
-}
-  
-.article {
-  background-color: rgb(180, 179, 179);
-  padding: 30px 40px 0;
-}
 
-.article-heading {
-    color: #111;
-}
-  
-.advert {
-  background-color: rgb(104, 103, 103);
-  color: #fff;
-  padding: 16px;
-  margin-bottom: 24px;
-}
-
-.advert .sponsor::before {
-  content: "Our friends and supporters ↓";
-  display: block;
-  font-size: 12px;
-  font-style: italic;
-  color: #666;
-  padding: 0 0 1.5em 0;
-  align-self: baseline;
-}
-  
-.sponsor {
-  width: 394px;
-  height: 274.53px;
-  padding: 17px 17px 34px;
-  color: #fff;
-  background: grey;
-  font-size: 24px;
-  font-weight: 700;
-  box-sizing: border-box;
-  text-align: center;
-}
-  
-.side-bar {
-  background-color: #070505;
-  color: #fff;
-  padding: 0 20px 50px;
-  margin-bottom: 71px;
-  border-radius: 20px;
-  font-size: 44px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-}
-  
-.large {
-  grid-column: 1/-1;
-  justify-content: center;
-}
 
 /* LATEST ARTICLES RULE END */
-
-/*LOAD MORE STYLE RULE */
-
-.load-more {
-  padding: 20px 0 101px;
-  text-align: center;
-}
-
-.load-more-link {
-  text-decoration: none;
-  border-bottom: 5px solid #070505;
-  text-transform: uppercase;
-  font-size: 0.75em;
-  letter-spacing: 1px;
-  padding: 19px 0 8px;
-  color: #333;
-  letter-spacing: 1px;
-}
-  
-.load-more-link::after {
-  content: " → ";
-  font-size: 1.5em;
-}
-
-/* LOAD MORE STYLE RULE END */
-
-/* FEATURED BOOK STYLE RULE START */
-
-.featured-book {
-  background-color: rgb(148, 143, 143);
-  height: 1088px;
-  padding: 70.5018px 0;
-}
-
-.featured-book-wrapper {
-  text-align: center;
-}
-
-.book-details {
-  margin: 1em auto 2em;
-  max-width: 55vw;
-  font-size: 1.2em;
-}
-
-/* FEATURED BOOK STYLE END */
-
-/* CURATED ARTICLES STYLE START */
-
-.person-of-week {
-  display: flex;
-  margin-bottom: 10px;
-}
-  
-.profile-pic {
-  background-image: url(./img/pow-img.png);
-  background-origin: padding-box;
-  background-clip: border-box;
-  background-repeat: no-repeat;
-  width: 100%;
-  height: 200px;
-  transition: transform 0.35s ease-in-out;
-  transform: rotate(-10deg);
-  border: 10px solid #070505;
-  border-radius: 15px;
-  margin: 10px 50px 20px 10px;
-}
-  
-.profile-pic:hover {
-  transform: rotate(0deg);
-}
-  
-.community-highlights {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 376.69px);
-  grid-gap: 10px;
-}
-
-/* CURATED ARTICLES STYLE END */
-
 /*TABLES-OF-CONTENTS START*/
 .tables-content {
     display: grid;
@@ -420,37 +275,46 @@ nav ul li h2 {
     transform: rotate(-10deg);
     margin: -70px 0px 0px 100px;
 }
-.featured-section button{
+
+.featured-section button {
     border-radius: 10px;
 }
-.featured-section{
+
+.featured-section {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 80px;
+    margin: 0;
 }
-.featured-section p{
+
+.featured-section p {
     color: white;
 }
-.featured-section a{
+
+.featured-section a {
     color: white;
     font-size: 40px;
 }
-.featured-section h2{
+
+.featured-section h2 {
     color: white;
     font-size: 20px;
 }
-.table-button{
+
+.table-button {
     margin-bottom: 20px;
 }
-.table-button button h2{
+
+.table-button button h2 {
     color: blue;
     padding: 5px 23px 0px 0px;
     font-size: 18px;
     line-height: 3px;
     cursor: pointer;
 }
-.tables-content button i{
+
+.tables-content button i {
     position: relative;
     left: 80px;
     top: -20px;
@@ -458,7 +322,56 @@ nav ul li h2 {
     font-size: 25px;
     line-height: 3px;
 }
+
 /*TABLE OF CONTENTS END*/
+/*START OF CURATED POST*/
+.curated-post {
+    background-color: lightgray;
+    margin: 0;
+    margin-top: -20px;
+}
+
+.curated {
+    position: relative;
+    left: -650px;
+    bottom: -650px;
+    transform: rotate(90deg);
+    width: 100%;
+}
+
+.curated-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0px 60px;
+    height: 90vh;
+}
+
+.curated-grid h2 {
+    font-size: 15px;
+}
+
+.curated-grid p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.curated-grid ul li {
+    padding: 0px 0px 30px 0px;
+}
+
+.curated-hover:hover {
+    background-color: white;
+    width: 500px;
+    height: 90vh;
+    padding-left: 30px;
+    -webkit-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    -moz-box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    box-shadow: 0px 6px 33px 0px rgba(69, 64, 69, 1);
+    transition-timing-function: ease-in;
+    transition-delay: 0.21s;
+}
+
+/*END OF CURATED POST*/
 
 /* FOOTER STYLE RULE START */
 
