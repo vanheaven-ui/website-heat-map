@@ -389,6 +389,9 @@ nav ul li h2 {
     margin: 0px 70px 0px 40px;
     height: 140vh;
 }
+.design-hover{
+    margin-top: 80px;
+}
 .design-hover li{
 color: red;
 }
@@ -420,6 +423,7 @@ color: red;
     align-items: center;
     background-color: rgb(95, 95, 95);
     border-radius: 20px;
+    margin-top: 90px;
 }
 .smash-news h1 a{
     color: white;
