@@ -286,6 +286,19 @@ nav ul li h2 {
   .article-heading {
     color: #111;
   }
+
+  .author {
+    color: #666;
+    font-size: 16px;;
+  }
+
+  .latest-article-author {
+    color: #666;
+  }
+
+  .latest-article-author::before {
+    content: " ";
+  }
   
   .advert {
     background-color: rgb(104, 103, 103);
