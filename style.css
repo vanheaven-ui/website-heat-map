@@ -5,7 +5,8 @@ body {
 }
 
 html,
-body, main {
+body,
+main {
     padding: 0;
     margin: 0;
     height: 100%;
@@ -359,12 +360,16 @@ nav ul li h2 {
 .curated-grid ul li {
     padding: 0px 0px 30px 0px;
 }
-.curated-hover a{
+
+.curated-hover a {
     color: blue;
+    font-size: 18px
 }
-.curated-hover ul li{
- color: red;
+
+.curated-hover ul li {
+    color: red;
 }
+
 .curated-hover:hover {
     background-color: white;
     width: 500px;
@@ -380,35 +385,43 @@ nav ul li h2 {
 /*END OF CURATED POST*/
 
 /*DESIGN PATTERNS START*/
-.designn{
+.designn {
     background-color: rgb(187, 185, 185);
 }
-.design-patterns{
+
+.design-patterns {
     display: grid;
     grid-template-columns: 40% 60%;
     margin: 0px 70px 0px 40px;
     height: 140vh;
 }
-.design-hover{
+
+.design-hover {
     margin-top: 80px;
 }
-.design-hover li{
-color: red;
+
+.design-hover li {
+    color: red;
 }
-.design-hover a{
+
+.design-hover a {
     color: blue;
 }
-.design-hover h2{
+
+.design-hover h2 {
     font-size: 15px;
 }
-.design-hover p{
+
+.design-hover p {
     font-size: 25px;
     font-weight: bold;
 }
-.design-hover ul li{
+
+.design-hover ul li {
     padding: 0px 0px 30px 0px;
 }
-.design-hover:hover{
+
+.design-hover:hover {
     background-color: white;
     padding-left: 30px;
     width: 105%;
@@ -420,7 +433,8 @@ color: red;
     z-index: 1;
 
 }
-.smash-news{
+
+.smash-news {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -428,54 +442,64 @@ color: red;
     border-radius: 20px;
     margin-top: 90px;
 }
-.smash-news h1 a{
+
+.smash-news h1 a {
     color: white;
     font-size: 35px;
 }
-.smash-news p{
+
+.smash-news p {
     color: white;
     line-height: 5px;
 }
-.smash-news img{
+
+.smash-news img {
     margin-top: 40px;
 }
-.smash-news button{
+
+.smash-news button {
     border-radius: 10px;
     background-color: white;
     border: none;
     cursor: pointer;
 }
-.smash-news button h2{
-    color :blue;
+
+.smash-news button h2 {
+    color: blue;
     float: right;
     border-left: 1px solid gray;
     padding: 0px 10px;
     line-height: 100%;
-    
+
 }
-.smash-news button h2 a{
+
+.smash-news button h2 a {
     color: blue;
     text-decoration: none;
 }
-.smash-news button input{
+
+.smash-news button input {
     border: none;
     font-size: 18px;
     margin-top: 18px;
     border-color: white;
     padding: 0;
 }
-.linkk{
+
+.linkk {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 300px;
 }
-.linkk a{
-   color: white;
-   text-decoration: none;
-   border-bottom: 3px solid;
+
+.linkk a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 3px solid;
 }
+
 /*DESIGN PATTERNS END*/
 
 /* FOOTER STYLE RULE START */
