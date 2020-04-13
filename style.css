@@ -260,9 +260,238 @@ nav ul li h2 {
 
 /* LATEST ARTICLES RULE START */
 
-
+.container {
+    width: 94vw;
+    margin: 0 auto;
+  }
+  
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 567px 783px 503px 651.34px;
+    grid-gap: 10px;
+  }
+  
+  .article {
+    background-color: rgb(180, 179, 179)
+  }
+  
+  .latest {
+    padding: 0 30px;
+  }
+  
+  .advert {
+    background-color: rgb(104, 103, 103);
+    color: #fff;
+    padding: 16px;
+    margin-bottom: 24px;
+  }
+  
+  
+  .advert .sponsor::before {
+    content: "Our friends and supporters ↓";
+    display: block;
+    font-size: 12px;
+    font-style: italic;
+    color: #666;
+    padding: 0 0 1.5em 0;
+    align-self: baseline;
+  }
+  
+  .sponsor {
+    width: 394px;
+    height: 274.53px;
+    padding: 17px 17px 34px;
+    color: #fff;
+    background: grey;
+    font-size: 24px;
+    font-weight: 700;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  .side-bar {
+    background-color: rgb(7, 5, 5);
+    color: #fff;
+    padding: 0 20px 50px;
+    margin-bottom: 71px;
+    border-radius: 20px;
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .large {
+    grid-column: 1/-1;
+    justify-content: center;
+  }
 
 /* LATEST ARTICLES RULE END */
+/* LOAD MORE STYLE RULE START */
+.load-more {
+    width: 94vw;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20.1434px 0 100.717px;
+  }
+  
+  .load-more-link {
+    text-decoration: none;
+    border-bottom: 5px solid #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    padding: 19px 0 8px;
+    color: #333;
+  }
+  
+  .load-more-link::after {
+    content: " → ";
+  }
+  
+/* LOAD MORE STYLE END */
+
+/* FEATURED BOOK STYLE RULE START */
+.featured-book {
+  background-color: rgb(148, 143, 143);
+  height: 1088px;
+  padding: 70.5018px 0;
+  text-align: center;
+}
+/* FEATURED BOOK STYLE RULE START */
+
+.person-of-week {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .profile-pic {
+    background-image: url(./img/pow-img.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 250px;
+    transition: transform 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    border: 10px solid #070505;
+    border-radius: 15px;
+    margin: 10px 50px 20px 10px;
+    align-self: flex-end;
+  }
+  
+  .profile-pic:hover {
+    transform: rotateZ(0) translateY(10px) translateX(12%);
+  }
+  
+  .pow-title {
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+  }
+  
+  .pow-bio {
+    width: 95%;
+    font-size: 19px;
+  }
+  
+  .community-highlights {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 376.69px);
+    grid-gap: 10px;
+  }
+  
+  .feature-panel {
+    height: 402px;
+    padding: 50.3584px 70.5018px;
+  }
+  
+  .curated-links {
+    display: grid;
+    grid-template: 626.39px / 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .newsletter {
+    grid-column: span 2;
+  }
+  
+  .link-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1030.53px;
+    grid-gap: 10px;    
+  }
+  
+  /* COMMUNITY HIGHLIGHTS STYLE RULE START */
+  
+  .post {
+    margin-top: 81px;
+    padding: 0 50px 0 101px;
+    text-align: left;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  .pp {
+    border: 5px solid #333;
+    background-image: url(./img/pp.png);
+    position: absolute;
+    top: 10px;
+    left: -96px;
+    width: 71px;
+    display: block;
+    height: 71px;
+    background-repeat: no-repeat;
+    transition: transform 0.2s ease-in0out;
+    transition: transform 0.2s ease-in-out;
+    transform: rotate(-10deg);
+    border-radius: 11px;
+    box-shadow: 0 20px 20px 5px #666;
+  }
+  
+  .pp:hover {
+    transform: rotateZ(0deg) translate(5px, 10px);
+    box-shadow: none;
+  }
+  
+  .author-name {
+    color: #666;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .author-name-link {
+    color: #666;
+    margin-right: 5px;
+  }
+  
+  .highlight-heading {
+    font-size: 32px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  time {
+    font-size: 17px;
+    color: #666;
+  }
+  
+  .post-text {
+    color: #333;
+    font-size: 19px;
+  }
+  
+  .post-text-link {
+    color: #006FC6;
+  }
+  
+  
+  /* COMMUNNITY HIGHLIGHTS STYLE RULE END */
+
 /*TABLES-OF-CONTENTS START*/
 .tables-content {
     display: grid;
