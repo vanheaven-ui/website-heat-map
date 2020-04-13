@@ -280,15 +280,23 @@ nav ul li h2 {
   }
   
   .latest {
-    padding: 30px 40px 0;
+    padding: 30px 20px 0;
+    position: relative;
   }
 
   .date-time {
     font-size: 0.8em;
+    color: #666;
+    display: block;
+    margin-bottom: 0.5em;
+    font-variant: small-caps;
   }
 
   .article-heading {
     color: #111;
+    color: #111;
+    font-weight: 900;
+    font-size: 1.1em;
   }
 
   .author {
@@ -302,6 +310,26 @@ nav ul li h2 {
 
   .latest-article-author::before {
     content: " ";
+  }
+
+  .article-text {
+    line-height: 1.8;
+  }
+
+  .read-more {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+  }
+
+  .read-more-link {
+    text-decoration: none;
+    color: #070505;
   }
   
   .advert {
@@ -335,7 +363,7 @@ nav ul li h2 {
   }
   
   .side-bar {
-    background-color: rgb(7, 5, 5);
+    background-color: #070505;
     color: #fff;
     padding: 0 20px 50px;
     margin-bottom: 71px;
