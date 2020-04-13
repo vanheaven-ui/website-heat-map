@@ -261,6 +261,7 @@ nav ul li h2 {
 
 .latest-articles {
   background-color: rgb(180, 179, 179);
+  padding: 40px;
 }
 
 .container {
@@ -273,10 +274,6 @@ nav ul li h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 567px 783px 503px 651.34px;
     grid-gap: 10px;
-  }
-  
-  .article {
-    background-color: rgb(180, 179, 179);
   }
   
   .latest {
@@ -385,7 +382,7 @@ nav ul li h2 {
     width: 94vw;
     text-align: center;
     margin: 0 auto;
-    padding: 20.1434px 0 100.717px;
+    padding: 50px 0 101px;
   }
   
   .load-more-link {
