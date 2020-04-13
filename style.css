@@ -379,10 +379,62 @@ nav ul li h2 {
 /* FEATURED BOOK STYLE RULE START */
 .featured-book {
   background-color: rgb(148, 143, 143);
-  height: 1088px;
-  padding: 70.5018px 0;
+  padding: 71px 0;
   text-align: center;
 }
+
+.available-date {
+  margin-bottom: 40px;
+  color: #fff;
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.book-heading-link {
+  color: #182f23;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+#top-title{
+  font-size: 1.1em;
+  padding: 20px 0 25px 0;
+  text-shadow: 1px 2px 2px #383636;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.book-details {
+  max-width: 55vw;
+  margin: 1em auto 2em;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.btn-book-ref {
+  color: #267dcc;
+  border: 1px solid #fff;
+  display: block;
+  padding: 0.75em 1em;
+  font-size: 24px;
+  font-weight: 700;
+  width: 26vw;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.book-img {
+  width: 100%;
+  margin: 50px auto -40px;
+  max-width: 920px;
+}
+
 /* FEATURED BOOK STYLE RULE START */
 
 /* PERSON OF WEEK STYLE START */
