@@ -259,6 +259,10 @@ nav ul li h2 {
 
 /* LATEST ARTICLES RULE START */
 
+.latest-articles {
+  background-color: rgb(180, 179, 179);
+}
+
 .container {
     width: 94vw;
     margin: 0 auto;
@@ -272,7 +276,7 @@ nav ul li h2 {
   }
   
   .article {
-    background-color: rgb(180, 179, 179)
+    background-color: rgb(180, 179, 179);
   }
   
   .latest {
@@ -381,10 +385,16 @@ nav ul li h2 {
 }
 /* FEATURED BOOK STYLE RULE START */
 
+/* PERSON OF WEEK STYLE START */
+
+.curated-articles {
+  background-color: rgb(180, 179, 179);
+}
+
 .person-of-week {
-    display: flex;
-    margin-bottom: 10px;
-  }
+  display: flex;
+  margin-bottom: 10px;
+}
   
   .profile-pic {
     background-image: url(./img/pow-img.png);
@@ -413,38 +423,17 @@ nav ul li h2 {
     width: 95%;
     font-size: 19px;
   }
+
+  /* PERSON OF WEEK STYLE START */
   
+   /* COMMUNITY HIGHLIGHTS STYLE RULE START */
+
   .community-highlights {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3, 376.69px);
     grid-gap: 10px;
   }
-  
-  .feature-panel {
-    height: 402px;
-    padding: 50.3584px 70.5018px;
-  }
-  
-  .curated-links {
-    display: grid;
-    grid-template: 626.39px / 1fr 1fr 1fr;
-    grid-gap: 10px;
-    margin-bottom: 10px;
-  }
-  
-  .newsletter {
-    grid-column: span 2;
-  }
-  
-  .link-aside {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1030.53px;
-    grid-gap: 10px;    
-  }
-  
-  /* COMMUNITY HIGHLIGHTS STYLE RULE START */
   
   .post {
     margin-top: 81px;
