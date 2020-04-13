@@ -596,14 +596,14 @@ time {
 
 .curated-hover:hover {
   background-color: white;
-  width: 500px;
+  width: 450px;
   height: 90vh;
   padding-left: 30px;
   -webkit-box-shadow: 0 6px 33px 0 rgba(69, 64, 69, 1);
   -moz-box-shadow: 0 6px 33px 0 rgba(69, 64, 69, 1);
   box-shadow: 0 6px 33px 0 rgba(69, 64, 69, 1);
   transition-timing-function: ease-out;
-  transition-delay: 0.1s;
+  transition-delay: 0.125s;
 }
 
 /* END OF CURATED POST */
@@ -788,5 +788,4 @@ footer ul li:hover {
 .cat {
   margin: 50px 0 10px 30px;
 }
-
 /* FOOTER STYLE RULE END */
