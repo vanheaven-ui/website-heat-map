@@ -258,6 +258,11 @@ nav ul li h2 {
 
 /* LATEST ARTICLES RULE START */
 
+.latest-articles {
+  background-color: rgb(180, 179, 179);
+  padding: 40px;
+}
+
 .container {
   width: 94vw;
   margin: 0 auto;
@@ -270,12 +275,56 @@ nav ul li h2 {
   grid-gap: 10px;
 }
 
-.article {
-  background-color: rgb(180, 179, 179);
+.latest {
+  padding: 30px 20px 0;
+  position: relative;
 }
 
-.latest {
-  padding: 0 30px;
+.date-time {
+  font-size: 0.8em;
+  color: #666;
+  display: block;
+  margin-bottom: 0.5em;
+  font-variant: small-caps;
+}
+
+.article-heading {
+  color: #111;
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+.author {
+  color: #666;
+  font-size: 16px;
+}
+
+.latest-article-author {
+  color: #666;
+}
+
+.latest-article-author::before {
+  content: " ";
+}
+
+.article-text {
+  line-height: 1.8;
+}
+
+.read-more {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.read-more-link {
+  text-decoration: none;
+  color: #070505;
 }
 
 .advert {
@@ -308,7 +357,7 @@ nav ul li h2 {
 }
 
 .side-bar {
-  background-color: rgb(7, 5, 5);
+  background-color: #070505;
   color: #fff;
   padding: 0 20px 50px;
   margin-bottom: 71px;
@@ -331,7 +380,7 @@ nav ul li h2 {
   width: 94vw;
   text-align: center;
   margin: 0 auto;
-  padding: 20.1434px 0 100.717px;
+  padding: 50px 0 101px;
 }
 
 .load-more-link {
@@ -346,6 +395,7 @@ nav ul li h2 {
 
 .load-more-link::after {
   content: " → ";
+  font-size: 1.2em;
 }
 
 /* LOAD MORE STYLE END */
@@ -353,22 +403,81 @@ nav ul li h2 {
 /* FEATURED BOOK STYLE RULE START */
 .featured-book {
   background-color: rgb(148, 143, 143);
-  height: 1088px;
-  padding: 70.5018px 0;
+  padding: 71px 0;
   text-align: center;
+}
+
+.available-date {
+  margin-bottom: 40px;
+  color: #fff;
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.book-heading-link {
+  color: #182f23;
+  font-size: 1.7em;
+  text-decoration: none;
+}
+
+#top-title {
+  font-size: 1.1em;
+  padding: 20px 0 25px 0;
+  text-shadow: 1px 2px 2px #383636;
+  color: #fff;
+  text-decoration: underline;
+}
+
+.book-details {
+  max-width: 55vw;
+  margin: 1em auto 2em;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  line-height: 1.8;
+}
+
+.btn-book-ref {
+  color: #267dcc;
+  border: 1px solid #fff;
+  display: block;
+  padding: 0.75em 1em;
+  font-size: 24px;
+  font-weight: 700;
+  width: 26vw;
+  margin: 0 auto;
+  border-radius: 15px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.book-img {
+  width: 100%;
+  margin: 50px auto -40px;
+  max-width: 920px;
 }
 
 /* FEATURED BOOK STYLE RULE START */
 
+/* PERSON OF WEEK STYLE START */
+
+.curated-articles {
+  background-color: rgb(180, 179, 179);
+}
+
 .person-of-week {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
+  padding: 50px 0 0 0;
 }
 
 .profile-pic {
-  background-image: url(./img/pow-img.png);
-  background-repeat: no-repeat;
-  width: 100%;
+  /* background-image: url(./img/pow-img.png);
+    background-repeat: no-repeat;
+    background-position: 50% 80%; */
+  width: 250px;
   height: 250px;
   transition: transform 0.2s ease-in-out;
   transform: rotate(-10deg);
@@ -383,15 +492,23 @@ nav ul li h2 {
 }
 
 .pow-title {
-  font-size: 18px;
   color: #666;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  margin: 0;
   font-weight: 400;
 }
 
 .pow-bio {
-  width: 95%;
   font-size: 19px;
+  margin: 27px 0 10px 0;
+  line-height: 1.8;
 }
+
+/* PERSON OF WEEK STYLE START */
+
+/* COMMUNITY HIGHLIGHTS STYLE RULE START */
 
 .community-highlights {
   display: grid;
@@ -399,31 +516,6 @@ nav ul li h2 {
   grid-template-rows: repeat(3, 376.69px);
   grid-gap: 10px;
 }
-
-.feature-panel {
-  height: 402px;
-  padding: 50.3584px 70.5018px;
-}
-
-.curated-links {
-  display: grid;
-  grid-template: 626.39px / 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin-bottom: 10px;
-}
-
-.newsletter {
-  grid-column: span 2;
-}
-
-.link-aside {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1030.53px;
-  grid-gap: 10px;
-}
-
-/* COMMUNITY HIGHLIGHTS STYLE RULE START */
 
 .post {
   margin-top: 81px;
@@ -482,6 +574,7 @@ time {
 .post-text {
   color: #333;
   font-size: 19px;
+  line-height: 1.8;
 }
 
 .post-text-link {
@@ -788,4 +881,5 @@ footer ul li:hover {
 .cat {
   margin: 50px 0 10px 30px;
 }
+
 /* FOOTER STYLE RULE END */
