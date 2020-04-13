@@ -276,7 +276,15 @@ nav ul li h2 {
   }
   
   .latest {
-    padding: 0 30px;
+    padding: 30px 40px 0;
+  }
+
+  .date-time {
+    font-size: 0.8em;
+  }
+
+  .article-heading {
+    color: #111;
   }
   
   .advert {
