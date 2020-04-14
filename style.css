@@ -4,10 +4,12 @@ body {
 
 html,
 body,
-main {
+main,
+nav {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 .hidden-content {
@@ -234,6 +236,7 @@ nav ul li h2 {
   flex-direction: column;
   justify-items: center;
   line-height: 80px;
+  overflow: hidden;
 }
 
 .overlapping-text div {
@@ -272,6 +275,7 @@ nav ul li h2 {
   right: 10%;
   justify-content: space-between;
   width: 230px;
+  overflow: hidden;
 }
 
 .serious div {
@@ -625,6 +629,7 @@ nav ul li h2 {
 
 header {
   position: relative;
+  overflow: hidden;
 }
 
 .pp {
@@ -742,6 +747,7 @@ time {
   color: blue;
   font-size: 25px;
   line-height: 3px;
+  overflow: hidden;
 }
 
 .curated-post {
@@ -756,6 +762,7 @@ time {
   bottom: -700px;
   transform: rotate(90deg);
   width: 100%;
+  overflow: hidden;
 }
 
 .curated-grid {
@@ -926,7 +933,6 @@ footer {
   background-color: #666;
   color: white;
   height: 100vh;
-  margin-bottom: 0;
 }
 
 .footerh2 {
@@ -954,6 +960,7 @@ footer ul li:hover {
 .last-footer {
   display: grid;
   grid-template-columns: 25% 50% 25%;
+  width: 100%;
 }
 
 .with-commitment p i {
