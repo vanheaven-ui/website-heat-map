@@ -120,21 +120,25 @@ nav ul li h2 {
 }
 
 .topics button {
+  position: relative;
   background-color: #666;
   border: white solid 3px;
   border-radius: 4px;
   margin-top: 20px;
   margin-right: 20px;
+  padding: 15px 30px;
+
 }
 
 .topics-button-h3 {
-  padding: 0 17px;
-  line-height: 3px;
+ 
+  line-height: 6px;
 }
 
 .topics-button-i {
   position: absolute;
-  top: 67px;
+  top: 11px;
+  left: 55px;
   font-size: 15px;
   color: white;
   margin-left: -50px;
@@ -142,7 +146,11 @@ nav ul li h2 {
 }
 
 .topics button span {
+<<<<<<< HEAD
   font-size: 20px;
+=======
+  font-size: 25px;
+>>>>>>> e9a4a40ba51ed123e5cdb47a7944fe030473e39e
   color: white;
 }
 
@@ -245,7 +253,7 @@ nav ul li h2 {
   line-height: 80px;
 }
 
-.overlapping-text span {
+.overlapping-text div {
   color: white;
   font-family: "Baloo Tamma 2", cursive;
 }
@@ -283,7 +291,7 @@ nav ul li h2 {
   width: 230px;
 }
 
-.serious button {
+.serious div {
   border: white solid 2px;
   border-radius: 6px;
   background-color: #8b8787;
@@ -291,17 +299,17 @@ nav ul li h2 {
   margin-top: 16px;
 }
 
-.serious button:hover {
+.serious div:hover {
   background-color: white;
 }
 
-.serious button h2 {
+.serious div h2 {
   font-size: 17px;
   color: white;
   padding: 0 5px;
 }
 
-.serious button h2:hover {
+.serious div h2:hover {
   color: #8b8787;
 }
 
@@ -466,6 +474,7 @@ nav ul li h2 {
   border-radius: 7px;
   border: none;
   margin-top: 30px;
+  padding: 20px 30px;
 }
 
 .side-bar2 p,
@@ -474,7 +483,7 @@ nav ul li h2 {
   margin: 20px;
 }
 
-.side-bar button p {
+.side-bar button span {
   font-size: 25px;
   font-weight: bold;
   color: blue;
@@ -500,9 +509,10 @@ nav ul li h2 {
   border-radius: 7px;
   margin-top: 30px;
   border: none;
+  padding: 20px 30px;
 }
 
-.side-bar2 button p {
+.side-bar2 button span {
   color: blue;
   font-size: 20px;
   font-weight: bold;
