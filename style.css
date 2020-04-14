@@ -778,17 +778,23 @@ time {
 }
 
 .button-h2 {
+  display: block;
   color: blue;
-  padding: 5px 23px 0 0;
+  padding: 19px 23px;
   font-size: 18px;
-  line-height: 3px;
+  line-height: 2px;
   cursor: pointer;
+}
+
+.bordeer{
+  border-radius: 7px;
+  border: none;
 }
 
 .button-h2-i {
   position: relative;
-  left: 80px;
-  top: -20px;
+  left: 85px;
+  top: -23px;
   color: blue;
   font-size: 25px;
   line-height: 3px;
@@ -948,12 +954,12 @@ time {
   line-height: 100%;
 }
 
-.smash-news button h2 a {
+.smash-news div h2 a {
   color: blue;
   text-decoration: none;
 }
 
-.smash-news button input {
+.smash-news div input {
   border: none;
   font-size: 18px;
   margin-top: 18px;
