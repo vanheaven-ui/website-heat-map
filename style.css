@@ -127,11 +127,9 @@ nav ul li h2 {
   margin-top: 20px;
   margin-right: 20px;
   padding: 15px 30px;
-
 }
 
 .topics-button-h3 {
- 
   line-height: 6px;
 }
 
@@ -146,11 +144,7 @@ nav ul li h2 {
 }
 
 .topics button span {
-<<<<<<< HEAD
-  font-size: 20px;
-=======
   font-size: 25px;
->>>>>>> e9a4a40ba51ed123e5cdb47a7944fe030473e39e
   color: white;
 }
 
@@ -786,7 +780,7 @@ time {
   cursor: pointer;
 }
 
-.bordeer{
+.bordeer {
   border-radius: 7px;
   border: none;
 }
