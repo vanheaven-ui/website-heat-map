@@ -141,7 +141,7 @@ nav ul li h2 {
   padding-left: 2px;
 }
 
-.topics button h3 {
+.topics button span {
   font-size: 20px;
   color: white;
 }
