@@ -22,19 +22,14 @@ Built With
 - HTML,
 - CSS
 
-👤 Author
-
-Github: @imhilla
-Twitter: @hillarykiptoo_
-
 ## Authors
 
 👤 **Kiptoo Hillary**
 
-- Github: [@githubhandle]()
-- Twitter: [@twitterhandle]()
+- Github: [@githubhandle](https://github.com/imhilla)
+- Twitter: [@twitterhandle](https://twitter.com/hillarykiptoo_)
 - Linkedin: [linkedin]()
-- Email: [Email]() 
+- Email: [Email](hillaryodhiambo282@gmail.com) 
 
 👤 **Mworekwa Ezekiel**
 
