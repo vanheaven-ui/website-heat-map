@@ -43,6 +43,17 @@ nav ul li {
 .membership img {
   height: 40px;
   width: 40px;
+  transform: rotate(-20deg);
+}
+
+.articles img:hover,
+.books img:hover,
+.events img:hover,
+.jobs img:hover,
+.membership img:hover {
+  height: 40px;
+  width: 40px;
+  transform: rotate(0deg);
 }
 
 .logo img {
@@ -62,6 +73,25 @@ nav ul li {
 nav ul li p,
 nav ul li h2 {
   color: white;
+}
+
+.articles p,
+.books p,
+.events p,
+.jobs p,
+.membership p,
+.topics p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.articles p:hover,
+.books p:hover,
+.events p:hover,
+.jobs p:hover,
+.membership p:hover,
+.topics p:hover {
+  color: black;
 }
 
 .topics button {
