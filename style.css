@@ -64,6 +64,17 @@ nav ul li h2 {
   color: white;
 }
 
+.articles p,
+.books p,
+.events p,
+.jobs p,
+.membership p,
+.topics p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+
 .topics button {
   background-color: #666;
   border: white solid 3px;
