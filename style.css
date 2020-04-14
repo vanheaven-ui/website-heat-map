@@ -98,7 +98,7 @@ nav ul li h2 {
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   grid-template-columns: repeat(2, 1fr);
-  max-height: 1401px;
+  max-height: 1200px;
 }
 
 .profile {
@@ -172,11 +172,11 @@ nav ul li h2 {
   transform: rotate(-15deg);
 }
 
-.arrows i {
+.arrows a {
   color: white;
   font-size: 40px;
   margin-left: 40px;
-  margin-bottom: 100px;
+  text-decoration: none;
 }
 
 .overlapping-text {
@@ -375,7 +375,7 @@ nav ul li h2 {
 }
 
 .side-bar-signin {
-  font-size: 10px;
+  font-size: 20px;
   color: white;
 }
 
@@ -393,7 +393,7 @@ nav ul li h2 {
 
 .side-bar span a {
   color: white;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .side-bar img {
@@ -406,7 +406,7 @@ nav ul li h2 {
   color: white;
 }
 
-.side-bar button {
+.sidebarrbutton {
   border-radius: 7px;
   border: none;
   margin-top: 30px;
