@@ -158,21 +158,21 @@ nav ul li h2 {
 }
 
 .first-box {
-  background-color: #beb8b8;
+  background-color: #575454;
   margin-top: -16px;
 }
 
 .second-box {
-  background-color: #8b8787;
+  background-color: #7a7979;
   margin-top: -16px;
 }
 
 .third-box {
-  background-color: #857c7c;
+  background-color: #7a7979;
 }
 
 .forth-box {
-  background-color: #9e9c9c;
+  background-color: #575454;
 }
 
 .universal-img {
@@ -193,7 +193,7 @@ nav ul li h2 {
 .overlapping-text {
   position: absolute;
   top: 250px;
-  left: 36%;
+  left: 35%;
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -201,8 +201,8 @@ nav ul li h2 {
 }
 
 .overlapping-text span {
-  font-size: 28px;
   color: white;
+  font-family: 'Baloo Tamma 2', cursive;
 }
 
 .span1,
@@ -214,18 +214,18 @@ nav ul li h2 {
 .span1 h1,
 .span2 h1 {
   color: black;
-  line-height: 5px;
-  font-size: 33px;
+  line-height: 0.5px;
+  font-size: 40px;
 }
 
 .span2 {
   margin-left: 28%;
-  width: 130px;
+  width: 150px;
   padding-left: 10px;
 }
 
 .span1 {
-  width: 385px;
+  width:430px;
 }
 
 .serious {
