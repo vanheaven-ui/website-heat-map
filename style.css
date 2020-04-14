@@ -45,6 +45,22 @@ nav ul li {
   width: 40px;
 }
 
+.articles img,
+.books img,
+.events img,
+.jobs img,
+.membership img {
+  transform: rotate(-20deg);
+}
+
+.articles img:hover,
+.books img:hover,
+.events img:hover,
+.jobs img:hover,
+.membership img:hover {
+  transform: rotate(0deg);
+}
+
 .logo img {
   margin-top: 30px;
   margin-left: -30px;
@@ -57,6 +73,15 @@ nav ul li {
 .membership,
 .topics {
   margin-top: 30px;
+}
+
+.nav-p2 {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.nav-p:hover {
+  color: black;
 }
 
 nav ul li p,
@@ -73,16 +98,17 @@ nav ul li h2 {
 }
 
 .topics-button-h3 {
-  padding: 0 30px;
+  padding: 0 17px;
   line-height: 3px;
 }
 
 .topics-button-i {
   position: absolute;
-  top: 85px;
+  top: 67px;
   font-size: 15px;
   color: white;
   margin-left: -50px;
+  padding-left: 2px;
 }
 
 .topics button h3 {
@@ -191,7 +217,7 @@ nav ul li h2 {
 
 .overlapping-text span {
   color: white;
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
 .span1,
@@ -214,7 +240,7 @@ nav ul li h2 {
 }
 
 .span1 {
-  width:430px;
+  width: 430px;
 }
 
 .serious {
