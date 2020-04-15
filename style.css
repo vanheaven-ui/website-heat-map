@@ -1,24 +1,20 @@
-/* GENERAL STYLE RULE START */
-
 body {
   font-family: "Spinnaker", sans-serif;
 }
 
 html,
 body,
-main {
+main,
+nav {
   padding: 0;
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 .hidden-content {
   display: none;
 }
-
-/* GENERAL STYLE RULE START */
-
-/* NAV STYLE RULE START */
 
 nav ul {
   display: flex;
@@ -43,11 +39,33 @@ nav ul li {
 .membership img {
   height: 40px;
   width: 40px;
+  transform: rotate(-20deg);
 }
 
 .logo img {
   margin-top: 30px;
   margin-left: -30px;
+}
+
+.serious img {
+  transform: rotate(10deg);
+  border-radius: 10px;
+}
+
+.side-bar img {
+  height: 250px;
+  width: 250px;
+  margin-top: 20px;
+}
+
+.articles img:hover,
+.books img:hover,
+.events img:hover,
+.jobs img:hover,
+.membership img:hover {
+  height: 40px;
+  width: 40px;
+  transform: rotate(0deg);
 }
 
 .articles,
@@ -59,40 +77,75 @@ nav ul li {
   margin-top: 30px;
 }
 
+.nav-p2 {
+  font-style: italic;
+  font-size: 13px;
+}
+
+.nav-p:hover {
+  color: black;
+}
+
 nav ul li p,
 nav ul li h2 {
   color: white;
 }
 
+.articles p,
+.books p,
+.events p,
+.jobs p,
+.membership p,
+.topics p {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.articles p:hover,
+.books p:hover,
+.events p:hover,
+.jobs p:hover,
+.membership p:hover,
+.topics p:hover {
+  color: black;
+}
+
 .topics button {
+  position: relative;
   background-color: #666;
   border: white solid 3px;
   border-radius: 4px;
   margin-top: 20px;
   margin-right: 20px;
+  padding: 15px 30px;
 }
 
 .topics-button-h3 {
-  padding: 0 30px;
-  line-height: 3px;
+  line-height: 6px;
 }
 
 .topics-button-i {
   position: absolute;
-  top: 85px;
+  top: 11px;
+  left: 55px;
   font-size: 15px;
   color: white;
   margin-left: -50px;
+  padding-left: 2px;
 }
 
-.topics button h3 {
-  font-size: 20px;
+.universal-hash span {
   color: white;
 }
 
-/* NAV STYLE RULE END */
+.side-bar span {
+  margin-top: 30px;
+}
 
-/* MAIN STYLE RULE START */
+.topics button span {
+  font-size: 20px;
+  color: white;
+}
 
 .first-article {
   display: grid;
@@ -110,7 +163,7 @@ nav ul li h2 {
   padding-top: 200px;
 }
 
-.profile p {
+.profile-p {
   color: white;
   font-size: 18px;
 }
@@ -128,7 +181,7 @@ nav ul li h2 {
   margin: 0 10px 0 40px;
 }
 
-.universal-comment p {
+.universal-comment-p {
   font-size: 18px;
   color: white;
 }
@@ -140,10 +193,6 @@ nav ul li h2 {
   width: 300px;
   margin-left: 40px;
   margin-bottom: 100px;
-}
-
-.universal-hash span {
-  color: white;
 }
 
 .first-box {
@@ -187,11 +236,12 @@ nav ul li h2 {
   flex-direction: column;
   justify-items: center;
   line-height: 80px;
+  overflow: hidden;
 }
 
-.overlapping-text span {
+.overlapping-text div {
   color: white;
-  font-family: 'Baloo Tamma 2', cursive;
+  font-family: "Baloo Tamma 2", cursive;
 }
 
 .span1,
@@ -225,9 +275,10 @@ nav ul li h2 {
   right: 10%;
   justify-content: space-between;
   width: 230px;
+  overflow: hidden;
 }
 
-.serious button {
+.serious div {
   border: white solid 2px;
   border-radius: 6px;
   background-color: #8b8787;
@@ -235,28 +286,19 @@ nav ul li h2 {
   margin-top: 16px;
 }
 
-.serious button:hover {
+.serious div:hover {
   background-color: white;
 }
 
-.serious button h2 {
+.serious div h2 {
   font-size: 17px;
   color: white;
   padding: 0 5px;
 }
 
-.serious button h2:hover {
+.serious div h2:hover {
   color: #8b8787;
 }
-
-.serious img {
-  transform: rotate(10deg);
-  border-radius: 10px;
-}
-
-/* MAIN STYLE RULE END */
-
-/* LATEST ARTICLES RULE START */
 
 .latest-articles {
   background-color: rgb(180, 179, 179);
@@ -370,10 +412,6 @@ nav ul li h2 {
   padding: 20px;
 }
 
-.side-bar span {
-  margin-top: 30px;
-}
-
 .side-bar-signin {
   font-size: 20px;
   color: white;
@@ -396,12 +434,6 @@ nav ul li h2 {
   font-size: 20px;
 }
 
-.side-bar img {
-  height: 250px;
-  width: 250px;
-  margin-top: 20px;
-}
-
 .side-bar p a {
   color: white;
 }
@@ -410,15 +442,16 @@ nav ul li h2 {
   border-radius: 7px;
   border: none;
   margin-top: 30px;
+  padding: 20px 30px;
 }
 
-.side-bar2 p,
-.side-bar2 p a {
+.side-bar2-p,
+.side-bar2-p-a {
   color: white;
   margin: 20px;
 }
 
-.side-bar button p {
+.side-bar button span {
   font-size: 25px;
   font-weight: bold;
   color: blue;
@@ -434,7 +467,7 @@ nav ul li h2 {
   margin-right: 40px;
 }
 
-.side-bar2 img {
+.side-bar2-img {
   height: 290px;
   width: 290px;
   margin: 20px;
@@ -444,9 +477,10 @@ nav ul li h2 {
   border-radius: 7px;
   margin-top: 30px;
   border: none;
+  padding: 20px 30px;
 }
 
-.side-bar2 button p {
+.side-bar2 button span {
   color: blue;
   font-size: 20px;
   font-weight: bold;
@@ -459,11 +493,7 @@ nav ul li h2 {
   justify-content: center;
 }
 
-/* LATEST ARTICLES RULE END */
-
-/* LOAD MORE STYLE RULE START */
 .load-more {
-  width: 100vw;
   text-align: center;
   margin: 0 auto;
   padding: 50px 0 101px;
@@ -485,9 +515,6 @@ nav ul li h2 {
   font-size: 1.2em;
 }
 
-/* LOAD MORE STYLE END */
-
-/* FEATURED BOOK STYLE RULE START */
 .featured-book {
   background-color: rgb(148, 143, 143);
   padding: 71px 0;
@@ -546,10 +573,6 @@ nav ul li h2 {
   max-width: 920px;
 }
 
-/* FEATURED BOOK STYLE RULE START */
-
-/* PERSON OF WEEK STYLE START */
-
 .curated-articles {
   background-color: rgb(180, 179, 179);
 }
@@ -561,9 +584,6 @@ nav ul li h2 {
 }
 
 .profile-pic {
-  /* background-image: url(./img/pow-img.png);
-    background-repeat: no-repeat;
-    background-position: 50% 80%; */
   width: 250px;
   height: 250px;
   transition: transform 0.2s ease-in-out;
@@ -593,10 +613,6 @@ nav ul li h2 {
   line-height: 1.8;
 }
 
-/* PERSON OF WEEK STYLE START */
-
-/* COMMUNITY HIGHLIGHTS STYLE RULE START */
-
 .community-highlights {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -612,6 +628,7 @@ nav ul li h2 {
 
 header {
   position: relative;
+  overflow: hidden;
 }
 
 .pp {
@@ -668,9 +685,6 @@ time {
   color: #006fc6;
 }
 
-/* COMMUNNITY HIGHLIGHTS STYLE RULE END */
-
-/* TABLES OF CONTENTS START */
 .tables-content {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -678,7 +692,7 @@ time {
   height: 400px;
 }
 
-.tables-content img {
+.tables-content-img {
   height: 400px;
   width: 280px;
   transform: rotate(-10deg);
@@ -697,11 +711,11 @@ time {
   margin: 0 0 0 80px;
 }
 
-.featured-section p {
+.featured-section-p {
   color: white;
 }
 
-.featured-section a {
+.featured-section-a {
   color: white;
   font-size: 40px;
 }
@@ -712,25 +726,29 @@ time {
 }
 
 .button-h2 {
+  display: block;
   color: blue;
-  padding: 5px 23px 0 0;
+  padding: 19px 23px;
   font-size: 18px;
-  line-height: 3px;
+  line-height: 2px;
   cursor: pointer;
+}
+
+.bordeer {
+  border-radius: 7px;
+  border: none;
 }
 
 .button-h2-i {
   position: relative;
-  left: 80px;
-  top: -20px;
+  left: 85px;
+  top: -23px;
   color: blue;
   font-size: 25px;
   line-height: 3px;
+  overflow: hidden;
 }
 
-/* TABLE OF CONTENTS END */
-
-/* START OF CURATED POST */
 .curated-post {
   background-color: lightgray;
   margin: 0;
@@ -743,6 +761,7 @@ time {
   bottom: -700px;
   transform: rotate(90deg);
   width: 100%;
+  overflow: hidden;
 }
 
 .curated-grid {
@@ -756,7 +775,7 @@ time {
   font-size: 15px;
 }
 
-.curated-grid p {
+.curated-grid-p {
   font-size: 25px;
   font-weight: bold;
 }
@@ -765,7 +784,7 @@ time {
   padding: 0 0 30px 0;
 }
 
-.curated-hover a {
+.curated-hover-a {
   color: blue;
   font-size: 18px;
 }
@@ -786,9 +805,6 @@ time {
   transition-delay: 0.125s;
 }
 
-/* END OF CURATED POST */
-
-/* DESIGN PATTERNS START */
 .designn {
   background-color: rgb(187, 185, 185);
 }
@@ -808,7 +824,7 @@ time {
   color: red;
 }
 
-.design-hover a {
+.design-hover-a {
   color: blue;
 }
 
@@ -816,7 +832,7 @@ time {
   font-size: 15px;
 }
 
-.design-hover p {
+.design-hover-p {
   font-size: 25px;
   font-weight: bold;
 }
@@ -846,7 +862,7 @@ time {
   margin-top: 90px;
 }
 
-.footer-link a,
+.footer-link-a,
 .with-commitment p a {
   color: white;
   font-size: 13px;
@@ -858,12 +874,12 @@ time {
   font-size: 35px;
 }
 
-.smash-news p {
+.smash-news-p {
   color: white;
   line-height: 5px;
 }
 
-.smash-news img {
+.smash-news-img {
   margin-top: 40px;
 }
 
@@ -882,12 +898,12 @@ time {
   line-height: 100%;
 }
 
-.smash-news button h2 a {
+.smash-news div h2 a {
   color: blue;
   text-decoration: none;
 }
 
-.smash-news button input {
+.smash-news div input {
   border: none;
   font-size: 18px;
   margin-top: 18px;
@@ -909,10 +925,6 @@ time {
   border-bottom: 3px solid;
 }
 
-/* DESIGN PATTERNS END */
-
-/* FOOTER STYLE RULE START */
-
 footer {
   display: flex;
   flex-direction: column;
@@ -920,7 +932,6 @@ footer {
   background-color: #666;
   color: white;
   height: 100vh;
-  margin-bottom: 0;
 }
 
 .footerh2 {
@@ -948,17 +959,18 @@ footer ul li:hover {
 .last-footer {
   display: grid;
   grid-template-columns: 25% 50% 25%;
+  width: 100%;
 }
 
 .with-commitment p i {
   font-size: 13px;
 }
 
-.with-commitment p {
+.with-commitment-p {
   font-size: 14px;
 }
 
-.with-commitment p,
+.with-commitment-p,
 .footer-link {
   display: flex;
   flex-direction: column;
@@ -968,5 +980,3 @@ footer ul li:hover {
 .cat {
   margin: 50px 0 10px 30px;
 }
-
-/* FOOTER STYLE RULE END */
