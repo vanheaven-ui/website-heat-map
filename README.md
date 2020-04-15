@@ -10,7 +10,7 @@ Our job was to create a grayscale heat map of the website that indicates which e
 Here's the screenshot of our work
 ![Screenshot](./img/website-heatmap.png "Website heat map")
 
-Here's a <a href="https://raw.githack.com/vanheaven-ui/website-heat-map/home-page/index.html">live link</a>
+Here's a <a href="https://raw.githack.com/vanheaven-ui/website-heat-map/master/index.html">live link</a>
 
 Here is how the page was structured:
 The page is divided into three main sections as below;
