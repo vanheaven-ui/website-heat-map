@@ -1,13 +1,7 @@
 # website-heat-map
-In this project, we broke apart the website for a popular design magazine with which most are probably familiar with now – Smashing Magazine. The goal for this exercise was to start training yourself to think in terms of visual hierarchy, typography and design principles.
+This project was completed under the Microverse remote software development curriculum. The project specific requirements included creating a gray heatmap of the original website at [original] (https://www.smashingmagazine.com/). We applied visual heirarchy principles and various typography from google fonts to provide a browsing guide.
 
-Our job was to create a grayscale heat map of the website that indicates which elements have the greatest weight in the visual hierarchy. 
-
-
- For inspiration, we checked out this image from <a href="https://web.archive.org/web/20170628134444/http://www.vanseodesign.com/blog/wp-content/uploads/2009/12/visual-hierarchy-compared.png">vanseodesign.com</a>  which compares a site layout with no differentiation on the left to one with a thoughtful hierarchy on the right. 
-
-
-Here's the screenshot of our work
+Here's the screenshot of the developed web page.
 ![Screenshot](./img/website-heatmap.png "Website heat map")
 
 Here's a <a href="https://raw.githack.com/vanheaven-ui/website-heat-map/master/index.html">live link</a>
