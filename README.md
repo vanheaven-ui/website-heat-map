@@ -1,4 +1,4 @@
-# website-heat-map
+# Website-Heat-Map
 This project was completed under the Microverse remote software development curriculum. The project specific requirements included creating a gray heatmap of the original website at [original](https://www.smashingmagazine.com/"). We applied visual heirarchy principles and various typography from google fonts to provide a browsing guide.
 
 Here's the screenshot of the developed web page.
